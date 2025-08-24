@@ -251,7 +251,7 @@ body {
 }
 
 /* --- Romper layout cuando el carrusel sea más alto de 250px --- */
-@media (max-height: 250px), (max-width: 860px) {
+@media (max-height: 500px), (max-width: 860px) {
   .hero-inner {
     grid-template-columns: 1fr;
   }
@@ -569,11 +569,16 @@ body {
 }
 
 .gallery-mini {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  display: block; /* comportamiento normal por defecto */
 }
 
+@media (min-width: 500px){
+  .gallery-mini {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
 @media (max-width: 640px) {
   .gallery-mini {
     grid-template-columns: repeat(2, 1fr);
