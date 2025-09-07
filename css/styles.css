@@ -22,13 +22,12 @@
 
 /* === Override del tema OSCURO === */
 :root[data-theme="dark"] {
-  --bg: #0b0c10;
-  --panel: #121319;
-  --panel-2: #171923;
+  --bg: #006d9e;
+  --panel: #f3b85a;
   --text: #e9eef3;
   --muted: #a9b3bd;
-  --brand: #7ee787;
-  --brand-2: #7db9ff;
+  --brand: #006d9e;
+  --brand-2: #23b466;
   --danger: #ff6b6b;
   --ok: #20c997;
   --shadow: 0 8px 30px rgba(0, 0, 0, .35);
@@ -54,10 +53,6 @@ body,
 }
 
 html,
-body {
-  height: 100%;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -383,7 +378,6 @@ body {
 
 /* Cards, highlights, lists */
 .card {
-  background: var(--panel);
   border: var(--border);
   border-radius: var(--radius);
   padding: 18px;
