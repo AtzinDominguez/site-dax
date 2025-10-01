@@ -23,9 +23,9 @@
 /* === Override del tema OSCURO === */
 :root[data-theme="dark"] {
   --bg: #006d9e;
-  --panel: #f3b85a;
+  --panel: #858fdf;
   --text: #e9eef3;
-  --muted: #a9b3bd;
+  --muted: #1b1c1d;
   --brand: #006d9e;
   --brand-2: #23b466;
   --danger: #ff6b6b;
